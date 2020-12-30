@@ -5,7 +5,8 @@
 # cross check CI
 
 trigger:
-- main
+- master
+- releases/*
 
 pool:
   vmImage: 'ubuntu-latest'
